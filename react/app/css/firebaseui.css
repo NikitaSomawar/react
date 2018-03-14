@@ -1,0 +1,68 @@
+.firebaseui-container {
+    background-color: #fff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: rgba(0,0,0,.87);
+    direction: ltr;
+    font: 16px Roboto,arial,sans-serif;
+    margin: 0 auto;
+    max-width: 360px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.firebaseui-idp-list {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+}
+.firebaseui-idp-list>.firebaseui-list-item {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.firebaseui-idp-button {
+    direction: ltr;
+    font-weight: 500;
+    height: auto;
+    line-height: normal;
+    max-width: 220px;
+    min-height: 40px;
+    padding: 8px 16px;
+    text-align: left;
+    width: 100%;
+}
+
+.mdl-button--raised {
+    background: rgba(158,158,158,.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.firebaseui-idp-icon-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.firebaseui-idp-icon {
+    border: none;
+    display: inline-block;
+    height: 18px;
+    vertical-align: middle;
+    width: 18px;
+}
+.firebaseui-idp-text.firebaseui-idp-text-long {
+    display: table-cell;
+}
+.firebaseui-idp-text {
+    color: #fff;
+    display: table-cell;
+    font-size: 14px;
+    padding-left: 16px;
+    text-transform: none;
+    vertical-align: middle;
+}
+.firebaseui-idp-text.firebaseui-idp-text-short {
+    display: none;
+}
+.firebaseui-idp-facebook, .firebaseui-idp-facebook:hover, .mdl-button.firebaseui-idp-facebook:active, .mdl-button.firebaseui-idp-facebook:focus {
+    background-color: #3b5998;
+}
